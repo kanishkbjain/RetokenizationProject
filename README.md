@@ -2,7 +2,7 @@
 
 This repository contains code and figure notebooks for studying how language model
 behavior changes when the same text is presented with different tokenizations or with
-small character-level perturbations.
+small character-level perturbations. This can be reproduced to generate figures from [this preprint](https://arxiv.org/abs/2606.15521). 
 
 ## Repository layout
 
