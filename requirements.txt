@@ -1,4 +1,4 @@
-# Core runtime for experiment scripts and evaluation utilities
+# Runtime
 click
 huggingface-hub
 matplotlib
@@ -12,11 +12,11 @@ tqdm
 transformers
 tables
 
-# Package name for `import olmo`
+# Provides `import olmo`
 ai2-olmo
 datasets
 
-# Notebook and figure-generation extras present in `figure_notebooks/`
+# Notebooks and figures
 jupyter
 Pillow
 zss

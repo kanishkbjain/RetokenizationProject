@@ -1,8 +1,9 @@
 # Figure Notebooks
 
-These notebooks are the figure-generation entrypoints.
+The notebooks in this directory regenerate the main figures from the saved experiment
+outputs.
 
-Primary mapping:
+Notebook map:
 
 - `figure_single_model_core_figures.ipynb`: `2_Figure1`-style pass@ figures, failure-distribution figures, `compute_l_k_over_k`, `olmo2_failure_tail_mass`
 - `figure_humaneval_allmodels.ipynb`: `4_humaneval_allmodels`
@@ -12,7 +13,5 @@ Primary mapping:
 - `figure_olmo2_humaneval_scaling_and_prepost.ipynb`: `olmo2_combined_passat`, OLMo-2 scaling figures, `pre_post_humaneval_pass_curves_and_mean_failure_probabilities`
 - `figure_olmo2_figure4_combined.ipynb`: `olmo2_figure4_combined`
 
-Before running the notebooks:
-
-1. Download or copy raw experiment outputs into `data/raw/`.
-2. Run notebooks from the `figure_notebooks/` directory so relative output paths resolve to `../outputs/figures/`.
+Raw result files go under `../data/raw/`. The notebooks write figures to
+`../outputs/figures/` when run from this directory.

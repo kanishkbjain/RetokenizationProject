@@ -13,10 +13,10 @@ ENV/
 .mypy_cache/
 .ruff_cache/
 
-# PyCharm local project files
+# PyCharm project files
 *.iml
 
-# Local experiments and working artifacts
+# Local analyses and working artifacts
 paper/
 scripts/
 figures_token_effects/
@@ -29,7 +29,7 @@ outputs/*
 outputs/figures/*
 !outputs/figures/.gitkeep
 
-# Keep data directories in the repo, but keep all local/raw data out of Git.
+# Track the directory layout, not local data.
 data/*
 !data/.gitkeep
 !data/raw/
