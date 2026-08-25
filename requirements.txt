@@ -1,0 +1,22 @@
+# Core runtime for experiment scripts and evaluation utilities
+click
+huggingface-hub
+matplotlib
+methodtools
+numpy
+pandas
+scipy
+scikit-learn
+torch
+tqdm
+transformers
+tables
+
+# Package name for `import olmo`
+ai2-olmo
+datasets
+
+# Notebook and figure-generation extras present in `figure_notebooks/`
+jupyter
+Pillow
+zss
