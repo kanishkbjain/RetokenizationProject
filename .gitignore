@@ -15,35 +15,3 @@ ENV/
 
 # PyCharm project files
 *.iml
-
-# Local analyses and working artifacts
-paper/
-scripts/
-figures_token_effects/
-experiments/analyze_retok_hidden_state_separation.py
-experiments/token_effects.ipynb
-data/processed/token_effects/
-
-outputs/*
-!outputs/figures/
-outputs/figures/*
-!outputs/figures/.gitkeep
-
-# Track the directory layout, not local data.
-data/*
-!data/.gitkeep
-!data/raw/
-data/raw/*
-!data/raw/.gitkeep
-!data/processed/
-data/processed/*
-!data/processed/.gitkeep
-
-*.zip
-data/raw/**/*.df
-data/raw/**/*.json
-data/raw/**/*.jsonl
-data/raw/**/*.h5
-data/raw/**/*.npz
-data/raw/**/generation_cache/
-data/raw/**/hidden_states_prenorm/
